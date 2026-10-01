@@ -35,7 +35,7 @@ class PlanetDetails extends StatelessWidget {
         children: [
           _buildDetailRow(
             "Distance from Sun (km)",
-            planetDetails["Distance from Sun (km)"] ?? "",
+            planetDetails["Distance from Sun (km)"] ??"",
           ),
           _buildDetailRow(
             "Length of Day (hours)",
